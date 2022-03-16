@@ -25,10 +25,10 @@ function rockPaperScissorsLizardSpock(userInput) {
     }
 
     function lose(myInput) {
-        console.log(`I had ${myInput}. You win!`)
+        console.log(`I had ${myInput}. You win!`);
     }
     function win(myInput) {
-        console.log(`I had ${myInput}. I win!`)
+        console.log(`I had ${myInput}. I win!`);
     }
 
     if(userInput === botInput) {
@@ -38,31 +38,31 @@ function rockPaperScissorsLizardSpock(userInput) {
             if(botInput === 'scissors' || botInput === 'lizard') {
                 lose(botInput);
             } else {
-                win(botInput)
+                win(botInput);
             }
         } else if(userInput === 'paper'){
             if(botInput === 'rock' || botInput === 'Spock') {
                 lose(botInput);
             } else {
-                win(botInput)
+                win(botInput);
             }
         } else if(userInput === 'scissors'){
             if(botInput === 'paper' || botInput === 'lizard') {
                 lose(botInput);
             } else {
-                win(botInput)
+                win(botInput);
             }
         } else if(userInput === 'lizard') {
             if(botInput === 'paper' || botInput === 'Spock') {
                 lose(botInput);
             } else {
-                win(botInput)
+                win(botInput);
             }
         } else if(userInput === 'Spock') {
             if(botInput === 'rock' || botInput === 'scissors') {
                 lose(botInput);
             } else {
-                win(botInput)
+                win(botInput);
             }
         } else {
             console.log("Invalid input!");
