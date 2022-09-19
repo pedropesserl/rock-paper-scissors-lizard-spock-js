@@ -14,13 +14,13 @@ function rockPaperScissorsLizardSpock(userInput) {
 
     if(random < 2) {
         botInput = 'rock';
-    } else if(random >= 2 && random < 4) {
+    } else if(random < 4) {
         botInput = 'paper';
-    } else if(random >= 4 && random < 6) {
+    } else if(random < 6) {
         botInput = 'scissors';
-    } else if(random >= 6 && random < 8) {
+    } else if(random < 8) {
         botInput = 'lizard';
-    } else if(random >= 8 && random <= 10) {    
+    } else if(random <= 10) {    
         botInput = 'Spock';
     }
 
